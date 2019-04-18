@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/companyColor</color>
+    <color name="colorPrimaryDark">@color/colorGreenDark</color>
+    <color name="colorAccent">@color/companyColor</color>
+    <color name="companyColor">#52a636</color>
+    <color name="colorWhite">#FFFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGreenDark">#387e19</color>
+    <color name="colorGreen">#52a636</color>
+    <color name="orange">#ffaa3c</color>
+    <color name="colorRed">#c16a2c</color>
+</resources>

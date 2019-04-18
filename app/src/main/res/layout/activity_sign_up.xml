@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".activities.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/signInName"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_border"
+            android:focusable="true"
+            android:hint="@string/enter_name"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:singleLine="true" />
+
+
+        <EditText
+            android:id="@+id/signInPassword"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/signInReEnterPassword"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="@string/re_enter_password"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:singleLine="true" />
+
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="@string/enter_phone_number"
+            android:inputType="phone"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:singleLine="true" />
+
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/company_color_back"
+            android:onClick="SignUp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="@string/sign_up"
+            android:textColor="#FFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="alreadyAccount"
+            android:text="@string/already_have_an_account"
+            android:textColor="@color/colorBlack" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorWhite"
+tools:context=".activities.EditInfoActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/addInfoName"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:hint="@string/enter_name"
+        android:inputType="text|textCapWords|textCapSentences"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/addInfoEmail"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+
+        android:focusable="true"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/addInfoAddress"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:hint="@string/enter_address"
+        android:inputType="text|textCapWords|textMultiLine"
+
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/addInfoPincode"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_pincode"
+        android:inputType="number"
+        android:maxLength="6"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:singleLine="true" />
+
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/green_color_back"
+        android:onClick="saveDetails"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="@string/save_details"
+        android:textColor="#FFFF" />
+
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

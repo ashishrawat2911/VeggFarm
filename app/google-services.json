@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "252396203324",
+    "firebase_url": "https://veggr-29a6c.firebaseio.com",
+    "project_id": "veggr-29a6c",
+    "storage_bucket": "veggr-29a6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252396203324:android:7aaff953273e5998",
+        "android_client_info": {
+          "package_name": "com.veggfarm.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252396203324-5b6o6eatnjnpg8n5p1dgtud1ahuqolcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veggfarm.android",
+            "certificate_hash": "98a109ef42478cff3e23a471851b17f0fc608a35"
+          }
+        },
+        {
+          "client_id": "252396203324-7b8vbvurnc985jeqr7g5sk76dfppdpou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHzsGx4-YSSshC8nVoxmDiZR8my7Ien2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252396203324-7b8vbvurnc985jeqr7g5sk76dfppdpou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

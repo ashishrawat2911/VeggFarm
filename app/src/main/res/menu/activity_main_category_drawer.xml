@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_action_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_action_cart"
+        android:title="Cart" />
+    <item
+        android:id="@+id/nav_order"
+        android:icon="@drawable/ic_action_orders"
+        android:title="Orders" />
+    <item
+        android:id="@+id/nav_say_hi"
+        android:icon="@drawable/hello_icon"
+        android:title="Say hi" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_action_about"
+        android:title="Account" />
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_action_help"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/nav_visit_us"
+        android:icon="@drawable/ic_action_visit_us"
+        android:title="Visit Us" />
+    <item
+        android:id="@+id/nav_SignOut"
+        android:icon="@drawable/ic_action_sign_out"
+        android:title="Sign Out" />
+</menu>

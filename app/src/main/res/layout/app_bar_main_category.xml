@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainCategoryActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:title="@string/app_name">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+                <com.ogaclejapan.smarttablayout.SmartTabLayout
+                    android:id="@+id/tab_view_pager_fav"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@color/companyColor"
+                    app:stl_defaultTabBackground="?attr/selectableItemBackground"
+                    app:stl_defaultTabTextColor="#ffff"
+                    app:stl_defaultTabTextSize="14sp"
+                    app:stl_distributeEvenly="true"
+                    app:stl_dividerThickness="0dp"
+                    app:stl_drawDecorationAfterTab="true"
+                    app:stl_indicatorColor="#40C4FF"
+                    app:stl_indicatorCornerRadius="2dp"
+                    app:stl_indicatorInterpolation="smart"
+                    app:stl_indicatorThickness="4dp"
+                    app:stl_overlineThickness="0dp"
+                    app:stl_underlineColor="#4D000000"
+                    app:stl_underlineThickness="0dp" />
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main_category" />
+
+
+</android.support.design.widget.CoordinatorLayout>
